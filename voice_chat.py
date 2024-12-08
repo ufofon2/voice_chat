@@ -19,7 +19,6 @@ import base64
 # Open AI API 키 설정하기
 from dotenv import load_dotenv
 
-load_dotenv()
 
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
